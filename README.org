@@ -1,0 +1,13 @@
+* About
+
+Nix flake for the [[https://github.com/odin-lang/Odin/][Odin]] programming language.
+
+* Running with nix flakes
+
+The command below starts the =odin= compiler:
+
+#+caption: Starting odin
+#+name: odin-run
+#+begin_src bash :eval never
+  nix run github:szamuboy/odin-nix
+#+end_src
